@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                btn.setText("cancel");
+                btn.setText("취소");
                 //System.out.println("OnClick..."); //Nooooo!!!
                 Log.d("MainActivity","OnClick...."); //mainActivity의 log만 찍겠다
             }
